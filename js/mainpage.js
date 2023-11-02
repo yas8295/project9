@@ -41,7 +41,7 @@ document.querySelectorAll(".drop-content a")[15].attributes[0].value =
 document.querySelector(
   "nav"
 ).children[0].children[0].children[0].children[0].attributes[0].value =
-  "images/logo.png";
+  "logo.png";
 console.log(
   document.querySelector("nav").children[0].children[0].children[0].children[0]
     .attributes[0].value
@@ -52,7 +52,7 @@ console.log(
 // load logo
 
 document.querySelector(".load").children[0].attributes[1].value =
-  "images/loadlogo.png";
+  "loadlogo.png";
 
 // load logo
 
