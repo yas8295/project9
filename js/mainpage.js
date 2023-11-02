@@ -36,6 +36,26 @@ document.querySelectorAll(".drop-content a")[15].attributes[0].value =
 
 // pages links
 
+// nav logo
+
+document.querySelector(
+  "nav"
+).children[0].children[0].children[0].children[0].attributes[0].value =
+  "images/logo.png";
+console.log(
+  document.querySelector("nav").children[0].children[0].children[0].children[0]
+    .attributes[0].value
+);
+
+// nav logo
+
+// load logo
+
+document.querySelector(".load").children[0].attributes[1].value =
+  "images/loadlogo.png";
+
+// load logo
+
 // scroll events
 
 const moveUp = function (e) {
